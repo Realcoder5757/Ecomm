@@ -36,5 +36,17 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  },
+
+  "homepage": "https://github.com/Realcoder5757/Ecomm/tree/master/src/index.js",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   }
+  
+
+
 }
